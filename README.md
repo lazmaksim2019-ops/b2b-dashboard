@@ -7,178 +7,176 @@
   <img src="https://img.shields.io/badge/Recharts-3-FF6B6B?style=for-the-badge&logo=chartdotjs" alt="Recharts" />
 </p>
 
-<h1 align="center">B2B Interactive Dashboard</h1>
+<h1 align="center">B2B Интерактивный Кабинет</h1>
 
 <p align="center">
-  <b>A modern, role-based B2B client portal built with Next.js 16, React 19, TypeScript 5, and Tailwind CSS v4.</b>
+  <b>Современный B2B-портал с динамическим переключением ролей на Next.js 16, React 19, TypeScript 5 и Tailwind CSS v4.</b>
 </p>
 
 <p align="center">
-  Dynamic role switching • Interactive analytics • Order management • Fully responsive
+  Динамическая смена ролей • Интерактивная аналитика • Управление заказами • Полный адаптив
 </p>
 
 <p align="center">
-  <sub>Built for the B2B segment — switch between <b>Client</b> and <b>Manager</b> roles to see role-specific KPIs, charts, and data.</sub>
+  <sub>Переключайтесь между ролями <b>Клиент</b> и <b>Менеджер</b> — метрики, графики и данные подстраиваются мгновенно.</sub>
 </p>
 
 <p align="center">
-  <a href="#✨-features">Features</a> •
-  <a href="#🚀-demo">Demo</a> •
-  <a href="#🛠-tech-stack">Tech Stack</a> •
-  <a href="#📁-project-structure">Structure</a> •
-  <a href="#💻-getting-started">Getting Started</a>
+  <a href="#✨-функционал">Функционал</a> •
+  <a href="#🚀-демо">Демо</a> •
+  <a href="#🛠-стек-технологий">Стек</a> •
+  <a href="#📁-структура-проекта">Структура</a> •
+  <a href="#💻-запуск-локально">Запуск</a>
 </p>
 
 ---
 
-## ✨ Features
+## ✨ Функционал
 
-### 🔄 Dynamic Role Switching
-Toggle between **Client** and **Manager** roles via a segmented control in the header. The entire UI — KPI metrics, charts, and financial indicators — rebuilds instantly based on the active role.
+### 🔄 Динамическое переключение ролей
+Переключайтесь между **Клиент** и **Менеджер** через сегментированный контрол в шапке. KPI-метрики, графики и финансы перестраиваются мгновенно.
 
-| Client View | Manager View |
+| Вид Клиента | Вид Менеджера |
 |---|---|
-| My Orders: 24 | Total Sales: 4.2M ₽ |
-| Total Purchases: 1,250,000 ₽ | New Clients: 12 |
-| Average Check: 52,000 ₽ | Order Conversion: 22% |
-| Awaiting Shipment: 8 | Problem Deals: 2 |
+| Мои заказы: 24 | Продажи: 4.2M ₽ |
+| Сумма закупок: 1 250 000 ₽ | Новые клиенты: 12 |
+| Средний чек: 52 000 ₽ | Конверсия: 22% |
+| Ожидают отгрузки: 8 | Проблемные сделки: 2 |
 
-### 📊 Interactive Analytics
-- **AreaChart** visualization of sales/purchases trends over 6 months
-- 4 KPI metric cards with positive/negative change indicators
-- Top Products table with detailed breakdown
-- Built with **Recharts** — responsive, animated, and interactive
+### 📊 Интерактивная аналитика
+- **AreaChart** — график динамики продаж/закупок за 6 месяцев
+- 4 карточки KPI с индикаторами роста/падения
+- Таблица топ-товаров с детальной разбивкой
+- Построен на **Recharts** — адаптивно, анимированно, интерактивно
 
-### 📦 Order Management
-- **Order creation form** with fields for counterparty, item, quantity, and delivery method
-- Simulated submission with loading state and toast notifications
-- **Status filtering** — filter orders by All / New / In Progress / Completed
-- Clean table layout with role-aware data display
+### 📦 Управление заказами
+- **Форма создания заказа** — контрагент, товар, количество, способ доставки
+- Симуляция отправки с лоадером и toast-уведомлениями
+- **Фильтрация по статусу** — Все / Новый / В работе / Завершён
+- Аккуратная таблица с данными, зависящими от роли
 
-### ⚙️ Settings Panel
-Multi-tab settings page:
-- **Company Profile** — name, email, phone, address
-- **Requisites** — INN, KPP, OKPO, bank account details
-- **Agreements** — service contracts with PDF download/view
-- **Notifications** — toggle email, SMS, push, and commercial offers
+### ⚙️ Настройки
+Много-табовая страница настроек:
+- **Профиль компании** — название, email, телефон, адрес
+- **Реквизиты** — ИНН, КПП, ОКПО, банковские счета
+- **Договоры** — сервисные контракты со скачиванием/просмотром PDF
+- **Уведомления** — вкл/выкл email, SMS, push, коммерческие предложения
 
-### 📱 Fully Responsive
-- **Desktop** — fixed sidebar navigation
-- **Tablet** — collapsed sidebar with icons
-- **Mobile** — hamburger menu overlay with backdrop
-- **Ultrawide** — centered content with max-width constraints
-- Optimized for all screen sizes with Tailwind's responsive utilities
+### 📱 Полный адаптив
+- **Десктоп** — фиксированный сайдбар
+- **Планшет** — сжатый сайдбар с иконками
+- **Мобильные** — выезжающее меню с затемнением фона
+- **UltraWide** — контент с ограничением по ширине
 
-### 🔔 Smart Notifications
-Header bell icon with a dropdown menu of mock notifications:
-- New order placed
-- Order status changed
-- Balance top-up
+### 🔔 Умные уведомления
+Колокольчик в шапке с выпадающим списком уведомлений:
+- Новый заказ
+- Изменение статуса заказа
+- Пополнение баланса
 
 ---
 
-## 🚀 Demo
+## 🚀 Демо
 
 <p align="center">
-  <i>Screenshots coming soon</i>
+  <i>Скриншоты скоро появятся</i>
 </p>
 
-| Role Switcher | Analytics Chart | Orders |
+| Переключатель ролей | График аналитики | Заказы |
 |---|---|---|
-| Toggle between Client/Manager roles | Interactive sales trend chart | Order table with status filters |
+| Клиент/Менеджер одним кликом | Тренды продаж | Таблица с фильтрами |
 
 <!-- 
-TODO: Add screenshots
-![Dashboard Overview](path/to/screenshot1.png)
-![Analytics Page](path/to/screenshot2.png)
-![Orders Page](path/to/screenshot3.png)
+TODO: Добавить скриншоты
+![Общий вид](path/to/screenshot1.png)
+![Аналитика](path/to/screenshot2.png)
+![Заказы](path/to/screenshot3.png)
 -->
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Стек технологий
 
-| Category | Technology |
+| Категория | Технология |
 |---|---|
-| **Framework** | [Next.js 16](https://nextjs.org/) (App Router, Turbopack) |
-| **UI Library** | [React 19](https://react.dev/) |
-| **Language** | [TypeScript 5](https://www.typescriptlang.org/) (strict mode) |
-| **Styling** | [Tailwind CSS v4](https://tailwindcss.com/) |
-| **Charts** | [Recharts 3](https://recharts.org/) |
-| **Icons** | [Lucide React](https://lucide.dev/) |
-| **Notifications** | [react-hot-toast](https://react-hot-toast.com/) |
-| **Fonts** | Geist (via `next/font/google`) |
-| **State Management** | React Context API |
-| **Linting** | ESLint 9 with `eslint-config-next` |
+| **Фреймворк** | [Next.js 16](https://nextjs.org/) (App Router, Turbopack) |
+| **UI Библиотека** | [React 19](https://react.dev/) |
+| **Язык** | [TypeScript 5](https://www.typescriptlang.org/) (strict mode) |
+| **Стилизация** | [Tailwind CSS v4](https://tailwindcss.com/) |
+| **Графики** | [Recharts 3](https://recharts.org/) |
+| **Иконки** | [Lucide React](https://lucide.dev/) |
+| **Уведомления** | [react-hot-toast](https://react-hot-toast.com/) |
+| **Шрифты** | Geist (через `next/font/google`) |
+| **Управление состоянием** | React Context API |
+| **Линтинг** | ESLint 9 + `eslint-config-next` |
 
 ---
 
-## 📁 Project Structure
+## 📁 Структура проекта
 
 ```
 b2b-dashboard/
 ├── app/
-│   ├── layout.tsx              # Root layout — fonts, sidebar, header, providers
-│   ├── page.tsx                # Homepage — role-based KPIs + orders table
-│   ├── globals.css             # Tailwind CSS v4 imports
+│   ├── layout.tsx              # Корневой layout — шрифты, сайдбар, хедер, провайдеры
+│   ├── page.tsx                # Главная — KPI метрики + таблица заказов
+│   ├── globals.css             # Tailwind CSS v4
 │   ├── analytics/
-│   │   └── page.tsx            # /analytics — charts, metrics, top products
+│   │   └── page.tsx            # /analytics — графики, метрики, топ товаров
 │   ├── orders/
-│   │   └── page.tsx            # /orders — order form + orders list
+│   │   └── page.tsx            # /orders — форма + список заказов
 │   ├── settings/
-│   │   └── page.tsx            # /settings — tabs: profile, requisites, agreements, notifications
+│   │   └── page.tsx            # /settings — табы: профиль, реквизиты, договоры, уведомления
 │   ├── components/
 │   │   ├── index.ts            # Barrel exports
-│   │   ├── Header.tsx          # Search, bell notifications, role switcher
-│   │   └── Sidebar.tsx         # Navigation sidebar (desktop + mobile overlay)
+│   │   ├── Header.tsx          # Поиск, уведомления, переключатель ролей
+│   │   └── Sidebar.tsx         # Навигация (десктоп + мобильное меню)
 │   └── contexts/
-│       ├── RoleContext.tsx      # Role state (client / manager)
-│       └── MobileMenuContext.tsx # Mobile sidebar toggle state
+│       ├── RoleContext.tsx      # Состояние роли (client / manager)
+│       └── MobileMenuContext.tsx # Состояние мобильного меню
 ├── src/
 │   └── data/
-│       └── mockData.ts         # Mock data — metrics, orders, types
-├── public/                     # Static assets
-├── next.config.ts              # Next.js configuration
-├── tailwind.config.ts          # Tailwind configuration
-├── tsconfig.json               # TypeScript configuration
+│       └── mockData.ts         # Мок-данные — метрики, заказы, типы
+├── public/                     # Статика
+├── next.config.ts              # Конфиг Next.js
+├── tsconfig.json               # Конфиг TypeScript
 └── package.json
 ```
 
 ---
 
-## 💻 Getting Started
+## 💻 Запуск локально
 
-### Prerequisites
+### Требования
 
 - Node.js 18+
 - npm
 
-### Installation
+### Установка
 
 ```bash
-# Clone the repository
+# Клонировать репозиторий
 git clone https://github.com/lazmaksim2019-ops/b2b-dashboard.git
 
-# Navigate to the project
+# Перейти в папку проекта
 cd b2b-dashboard
 
-# Install dependencies
+# Установить зависимости
 npm install
 
-# Start the development server
+# Запустить dev-сервер
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Откройте [http://localhost:3000](http://localhost:3000) в браузере.
 
-### Build for Production
+### Сборка для продакшена
 
 ```bash
 npm run build
 npm start
 ```
 
-### Lint
+### Проверка кода
 
 ```bash
 npm run lint
@@ -186,12 +184,12 @@ npm run lint
 
 ---
 
-## 📄 License
+## 📄 Лицензия
 
-This project is open source and available under the [MIT License](LICENSE).
+Проект распространяется под лицензией [MIT](LICENSE).
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/lazmaksim2019-ops">Maksim Laz</a>
+  Сделано с ❤️ — <a href="https://github.com/lazmaksim2019-ops">Максим Лаз</a>
 </p>
