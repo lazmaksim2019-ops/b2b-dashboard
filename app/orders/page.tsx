@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from "react";
-import { useRole } from "../contexts/RoleContext";
 import toast, { Toaster } from "react-hot-toast";
 import { orders } from "../../src/data/mockData";
 
@@ -13,7 +12,6 @@ interface OrderForm {
 }
 
 export default function OrdersPage() {
-  const { role } = useRole();
   const [formData, setFormData] = useState<OrderForm>({
     counterparty: "",
     itemId: "",

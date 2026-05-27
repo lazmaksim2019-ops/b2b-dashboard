@@ -10,7 +10,7 @@ interface NavItem {
 }
 
 export default function Sidebar() {
-  const { isMobileMenuOpen, toggleMobileMenu, closeMobileMenu } = useMobileMenu();
+  const { isMobileMenuOpen, closeMobileMenu } = useMobileMenu();
   const navItems: NavItem[] = [
     { path: "/", label: "Главная", icon: <Home /> },
     { path: "/orders", label: "Заказы", icon: <ShoppingBag /> },

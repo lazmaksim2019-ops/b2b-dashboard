@@ -7,7 +7,6 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
-  Tooltip,
   Legend,
   ResponsiveContainer
 } from "recharts";
@@ -28,14 +27,19 @@ const chartData = [
   { month: "Июн", sales: 220, purchases: 150 },
 ];
 
-function CustomTooltip(props: any) {
-  const { active, payload } = props;
+interface TooltipProps {
+  active?: boolean;
+  payload?: Array<{ value: number }>;
+  label?: string;
+}
+
+function CustomTooltip({ active, payload, label }: TooltipProps) {
   if (active && payload && payload.length > 0) {
     const sales = payload[0].value;
     const purchases = payload[1].value;
     return (
       <div className="custom-tooltip" style={{ backgroundColor: "#fff", border: "1px solid #ccc", padding: "8px", borderRadius: "4px" }}>
-        <p className="label" style={{ fontWeight: "bold", marginBottom: "4px" }}>{props.label}</p>
+        <p className="label" style={{ fontWeight: "bold", marginBottom: "4px" }}>{label}</p>
         <p className="sales" style={{ color: "#8884d8" }}>Продажи: {sales}</p>
         <p className="purchases" style={{ color: "#82ca9d" }}>Отгрузки: {purchases}</p>
       </div>

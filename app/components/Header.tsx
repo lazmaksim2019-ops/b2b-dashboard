@@ -1,6 +1,6 @@
 'use client';
 
-import { Search, Bell, User, Menu } from "lucide-react";
+import { Search, Bell, Menu } from "lucide-react";
 import { useRole } from "../contexts/RoleContext";
 import { useMobileMenu } from "../contexts/MobileMenuContext";
 import { useState } from "react";
@@ -11,13 +11,11 @@ interface HeaderProps {
 
 export default function Header({ title }: HeaderProps) {
   const { role, setRole } = useRole();
-  const { isMobileMenuOpen, toggleMobileMenu } = useMobileMenu();
-  const [showRoleSwitcher, setShowRoleSwitcher] = useState(false);
+  const { toggleMobileMenu } = useMobileMenu();
   const [showBellDropdown, setShowBellDropdown] = useState(false);
 
   const handleRoleClick = (newRole: "client" | "manager") => {
     setRole(newRole);
-    setShowRoleSwitcher(false);
   };
 
   const notifications = [

@@ -7,6 +7,10 @@
   <img src="https://img.shields.io/badge/Recharts-3-FF6B6B?style=for-the-badge&logo=chartdotjs" alt="Recharts" />
 </p>
 
+<p align="center">
+  <img src="b2b_dashboard_screen.png" alt="B2B Dashboard Скриншот" width="800" style="border-radius: 8px; border: 1px solid #e4e4e7;" />
+</p>
+
 <h1 align="center">B2B Интерактивный Кабинет</h1>
 
 <p align="center">
@@ -79,19 +83,8 @@
 ## 🚀 Демо
 
 <p align="center">
-  <i>Скриншоты скоро появятся</i>
+  <img src="b2b_dashboard_screen.png" alt="B2B Dashboard — общий вид" width="800" style="border-radius: 8px; border: 1px solid #e4e4e7;" />
 </p>
-
-| Переключатель ролей | График аналитики | Заказы |
-|---|---|---|
-| Клиент/Менеджер одним кликом | Тренды продаж | Таблица с фильтрами |
-
-<!-- 
-TODO: Добавить скриншоты
-![Общий вид](path/to/screenshot1.png)
-![Аналитика](path/to/screenshot2.png)
-![Заказы](path/to/screenshot3.png)
--->
 
 ---
 
