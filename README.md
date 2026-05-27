@@ -7,10 +7,6 @@
   <img src="https://img.shields.io/badge/Recharts-3-FF6B6B?style=for-the-badge&logo=chartdotjs" alt="Recharts" />
 </p>
 
-<p align="center">
-  <img src="b2b_dashboard_screen.png" alt="B2B Dashboard Скриншот" width="800" style="border-radius: 8px; border: 1px solid #e4e4e7;" />
-</p>
-
 <h1 align="center">B2B Интерактивный Кабинет</h1>
 
 <p align="center">
